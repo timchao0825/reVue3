@@ -1,5 +1,5 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
+  <img class="main-logo" alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello world !!" />
 </template>
 
@@ -21,6 +21,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+.main-logo {
+  margin-top: 16px;
+  width: 100px;
 }
 </style>
