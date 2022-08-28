@@ -2,20 +2,20 @@
   <div class="hello">
     <h1>Option API vs Composition API</h1>
     <hr />
-    <OptionDemo />
-    <hr />
-    <!-- <CompositionDemo /> -->
+    <!-- <OptionDemo /> -->
+    <!-- <hr /> -->
+    <CompositionDemo />
   </div>
 </template>
 
 <script>
-import OptionDemo from "./option.vue";
-// import CompositionDemo from "./composition.vue";
+// import OptionDemo from "./option.vue";
+import CompositionDemo from "./composition.vue";
 export default {
   name: "HelloWorld",
   components: {
-    OptionDemo,
-    // CompositionDemo,
+    // OptionDemo,
+    CompositionDemo,
   },
 };
 </script>
